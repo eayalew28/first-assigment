@@ -1,0 +1,4 @@
+cd ~/Documents
+git clone https://github.com/your-username/GitHub-Collab-Project.git
+cd GitHub-Collab-Project
+touch script.py 
