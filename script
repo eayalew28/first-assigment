@@ -2,3 +2,22 @@ cd ~/Documents
 git clone https://github.com/your-username/GitHub-Collab-Project.git
 cd GitHub-Collab-Project
 touch script.py 
+def hello():
+    print("Hello, world!")
+
+hello()
+
+git add script.py
+git commit -m "Added hello function"
+git push origin main
+
+git pull origin main
+
+def goodbye():
+    print("Goodbye, world!")
+
+goodbye()
+
+git add script.py
+git commit -m "Added goodbye function"
+git push origin main
